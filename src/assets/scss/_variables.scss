@@ -1,0 +1,58 @@
+@import 'colors';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Button
+
+$input-btn-padding-y: 0.625rem;
+$input-btn-padding-x: 1.875rem;
+$popover-box-shadow: $box-shadow-lg;
+$input-btn-line-height: 2.4rem;
+
+$btn-border-radius: $border-radius-pill;
+$btn-box-shadow: none;
+$btn-transition: background-color 0.3s ease 0s;
+$btn-border-radius: 5px;
+
+$list-group-item-padding-x: 0;
+
+$enable-negative-margins: true;
+
+$box-shadow-up: rgb(0 0 0 / 100%) 0px -5px 20px;
+
+// Navbar
+
+$navbar-light-color: black;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+$navbar-brand-font-size: $font-size-base;
+$nav-pills-link-active-color: $secondary;
+
+// Card
+
+$card-spacer-y: $spacer;
+$card-spacer-x: $spacer;
+$card-title-spacer-y: $spacer * 0.5;
+$card-border-width: none;
+$card-height: null;
+$card-bg: $gray-350;
+$card-border-color: $gray-200;
+$card-border-radius: 0.25rem;
+
+// Forms
+
+$input-bg: $white;
+$input-hover-bg: $white;
+$input-focus-bg: $white;
+$input-border-color: $gray-200;
+$input-border-width: 2px;
+$input-focus-border-color: $black;
+
+$input-focus-box-shadow: none;
+$input-height: 3rem;
+
+$form-check-input-border-radius: 0.15em;
+
+$transition: all 0.3s ease-in-out;

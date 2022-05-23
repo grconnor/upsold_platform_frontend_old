@@ -1,0 +1,29 @@
+// Bootstrap scss import
+// @import “../node_modules/bootstrap/scss/bootstrap.scss”;
+// @import "~bootstrap/scss/bootstrap.scss"
+
+// Bootstrap global, variables, layout etc etc
+
+@import 'body';
+@import 'global';
+@import 'layout';
+@import 'variables';
+
+@import 'navbar';
+@import 'buttons';
+@import 'typography';
+
+@import 'card';
+@import 'font';
+@import 'forms';
+@import 'colors';
+@import 'common';
+@import 'preview';
+
+// Page imports
+
+@import 'page/landing';
+
+// Bootstrap import
+
+@import '~bootstrap/scss/bootstrap.scss';
