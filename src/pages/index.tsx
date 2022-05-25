@@ -5,8 +5,9 @@ import PageHeadContent from '@components/common/PageHead';
 const Home: NextPage = () => {
   return (
     <div>
-      <PageHeadContent title="Homepage" description="homepage" />
-      <h3>Home Page</h3>
+      <PageHeadContent title="SiteIndex" description="site index" />
+      <h3>Welcome to the site Index</h3>
+      <h4>Login page coming soon ..</h4>
     </div>
   );
 };
